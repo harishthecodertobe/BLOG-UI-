@@ -1,0 +1,106 @@
+/* ============================================
+   DESIGN TOKENS
+   A warm "editorial notebook" palette — ink navy
+   + aged gold, on a paper background. Chosen to
+   feel like a printed journal rather than a
+   generic SaaS dashboard.
+   ============================================ */
+:root {
+  /* Color */
+  --color-paper: #faf6ee;
+  --color-paper-dim: #f2ecdf;
+  --color-ink: #1c2b3a;
+  --color-ink-light: #2e4157;
+  --color-gold: #c08a1e;
+  --color-gold-soft: #e7c877;
+  --color-teal: #2f6b62;
+  --color-rust: #b6532c;
+  --color-text: #262320;
+  --color-text-muted: #6c6660;
+  --color-card-bg: #ffffff;
+  --color-border: #e6ded0;
+
+  /* Type */
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* Layout */
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --shadow-soft: 0 6px 20px rgba(28, 43, 58, 0.08);
+  --shadow-hover: 0 16px 32px rgba(28, 43, 58, 0.16);
+  --max-width: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  margin: 0;
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+}

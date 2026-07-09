@@ -1,0 +1,118 @@
+/* ---------- Hero ---------- */
+.hero {
+  background: linear-gradient(160deg, var(--color-ink) 0%, var(--color-ink-light) 100%);
+  color: #fff;
+  padding: 72px 24px 88px;
+}
+
+.hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-gold-soft);
+  margin-bottom: 18px;
+}
+
+.hero-heading {
+  font-size: clamp(2.1rem, 5vw, 3.4rem);
+  line-height: 1.15;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero-accent {
+  color: var(--color-gold-soft);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.hero-subheading {
+  margin-top: 20px;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.6;
+}
+
+/* ---------- Main content ---------- */
+.main {
+  flex: 1;
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+  /* Pull the controls card up over the hero for a layered, editorial feel */
+  margin-top: -46px;
+}
+
+.controls {
+  background-color: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.clear-button {
+  border: 1.5px solid var(--color-ink);
+  background-color: transparent;
+  color: var(--color-ink);
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  transition: background-color 0.18s ease, color 0.18s ease, opacity 0.18s ease;
+}
+
+.clear-button:hover:not(:disabled) {
+  background-color: var(--color-ink);
+  color: #fff;
+}
+
+.clear-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.results-count {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 22px 2px 16px;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 28px 24px;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- Responsive tweaks ---------- */
+@media (max-width: 640px) {
+  .hero {
+    padding: 56px 20px 76px;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .clear-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 70px 24px;
+  border: 1.5px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-paper-dim);
+}
+
+.mark {
+  display: inline-block;
+  font-size: 2.2rem;
+  color: var(--color-gold);
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  max-width: 380px;
+  margin: 0 auto;
+}

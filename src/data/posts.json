@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Why Slow Mornings Make Better Engineers",
+    "author": "Maya Chen",
+    "category": "Lifestyle",
+    "date": "2026-06-02",
+    "description": "A short case for protecting the first hour of your day from meetings, Slack, and inboxes.",
+    "content": "Deep work rarely survives the first ping of the day. This post walks through a simple morning routine — no screens for the first 30 minutes — that a small engineering team tested for six weeks, and what changed in their output and mood."
+  },
+  {
+    "id": 2,
+    "title": "A Beginner's Guide to React Hooks",
+    "author": "Devon Park",
+    "category": "Technology",
+    "date": "2026-05-18",
+    "description": "useState and useEffect explained with real examples you'll actually use in projects.",
+    "content": "Hooks let function components hold state and side effects without ever writing a class. We build a small counter and a data-fetching example from scratch, explaining exactly when each hook re-runs and why that matters."
+  },
+  {
+    "id": 3,
+    "title": "Street Food Trails of Kolkata",
+    "author": "Ritika Sen",
+    "category": "Food",
+    "date": "2026-04-27",
+    "description": "From puchka stalls to century-old sweet shops, a walking guide to the city's best bites.",
+    "content": "We spent four evenings tracing College Street to Park Street on foot, stopping wherever a queue looked promising. Here's the route, the must-try dishes, and the shops that have barely changed in fifty years."
+  },
+  {
+    "id": 4,
+    "title": "Packing Light for a Month in the Himalayas",
+    "author": "Arjun Verma",
+    "category": "Travel",
+    "date": "2026-03-11",
+    "description": "Everything that fit in an 8kg backpack for four weeks of trekking, and what I regretted bringing.",
+    "content": "Altitude, weather swings, and long trail days punish overpacking. This is the full gear list, layered by weight and priority, plus three items I wish I'd left at home."
+  },
+  {
+    "id": 5,
+    "title": "Sleep Debt: The Quiet Productivity Killer",
+    "author": "Dr. Anita Rao",
+    "category": "Health",
+    "date": "2026-05-02",
+    "description": "What actually happens to focus and memory after a week of six-hour nights.",
+    "content": "Sleep researchers describe a 'debt' that compounds silently — you feel fine, but reaction time and working memory quietly decline. We break down the studies and three practical habits that help repay it."
+  },
+  {
+    "id": 6,
+    "title": "Bootstrapping a SaaS to ₹10 Lakh MRR",
+    "author": "Karan Mehta",
+    "category": "Business",
+    "date": "2026-02-19",
+    "description": "No investors, no team for the first year — just a founder, a spreadsheet, and cold emails.",
+    "content": "This is an honest breakdown of the first eighteen months: the pricing mistakes, the channel that actually worked, and the month churn nearly killed the business before a single product change fixed it."
+  },
+  {
+    "id": 7,
+    "title": "The Case for Boring Typography",
+    "author": "Leah Fischer",
+    "category": "Design",
+    "date": "2026-06-14",
+    "description": "Why the most legible interfaces often use the least exciting typefaces — on purpose.",
+    "content": "Novelty type is fun in a poster and exhausting in a product. We look at three interfaces that swapped a 'distinctive' font for a quiet one, and the readability gains that followed."
+  },
+  {
+    "id": 8,
+    "title": "How Tardigrades Survive the Vacuum of Space",
+    "author": "Dr. Samuel Okoye",
+    "category": "Science",
+    "date": "2026-01-30",
+    "description": "Inside the biochemistry that lets a millimeter-long creature shrug off radiation and desiccation.",
+    "content": "Tardigrades enter a state called cryptobiosis, replacing water in their cells with a protective glass-like substance. We explain the current research on the proteins involved and why it matters for astrobiology."
+  },
+  {
+    "id": 9,
+    "title": "Rethinking Homework for Middle School",
+    "author": "Priya Nair",
+    "category": "Education",
+    "date": "2026-04-08",
+    "description": "One school's two-year experiment replacing worksheets with project logs.",
+    "content": "Teachers tracked engagement and grades across two cohorts — one with traditional homework, one with weekly project logs. The results weren't uniformly positive, and that nuance is the most useful part of the story."
+  },
+  {
+    "id": 10,
+    "title": "Inside a Marathon Taper Week",
+    "author": "Tomas Alvarez",
+    "category": "Sports",
+    "date": "2026-05-25",
+    "description": "What elite runners actually do in the final seven days before race day.",
+    "content": "Tapering feels counterintuitive — less training right before the biggest effort of the season. We interview two coaches about mileage cuts, sleep priorities, and the mental game of resting on purpose."
+  },
+  {
+    "id": 11,
+    "title": "CSS Grid vs Flexbox: Choosing the Right Tool",
+    "author": "Devon Park",
+    "category": "Technology",
+    "date": "2026-03-22",
+    "description": "A practical decision guide, not another 'both are great' explainer.",
+    "content": "Grid and Flexbox solve different problems, but tutorials rarely say which to reach for first. This post gives five layout scenarios and the tool that fits each one, with reasoning you can reuse."
+  },
+  {
+    "id": 12,
+    "title": "A Weekend in Pondicherry",
+    "author": "Ritika Sen",
+    "category": "Travel",
+    "date": "2026-02-05",
+    "description": "French quarter cafes, quiet beaches, and where to stay without booking months ahead.",
+    "content": "Pondicherry rewards slow wandering more than a packed itinerary. Here's a loose two-day plan built around cafe hopping, the promenade at sunset, and one under-the-radar guesthouse."
+  }
+]

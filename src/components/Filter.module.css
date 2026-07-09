@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  border: 1.5px solid var(--color-border);
+  background-color: var(--color-card-bg);
+  color: var(--color-text);
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.pill:hover {
+  border-color: var(--color-gold);
+  color: var(--color-ink);
+}
+
+.active {
+  background-color: var(--color-ink);
+  border-color: var(--color-ink);
+  color: #fff;
+}
+
+.active:hover {
+  color: #fff;
+}
