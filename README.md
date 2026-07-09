@@ -4,7 +4,7 @@ A small, fully responsive React + Vite blog UI with real-time search and
 category filtering, built from a local `posts.json` file (no backend).
 
 ## Run it
-
+https://blog-ui-jade.vercel.app/
 ```bash
 npm install
 npm run dev
